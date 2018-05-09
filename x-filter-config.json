@@ -1,0 +1,15 @@
+{
+    "alwaysRun": true,
+    "whitelist": [
+		"index.html",
+		"cordova.js",
+		"cordova_plugins.js",
+		"plugins/**",
+		"cordova-js-src/**",
+
+		"js/**"
+    ],
+    "blacklist": [
+    ]
+}
+
