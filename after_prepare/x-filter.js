@@ -4,7 +4,7 @@
 
 // Modules
 var fs = require('fs-extra');
-var glob = require("glob");
+var glob = require('glob');
 var path = require('path');
 
 // Process
@@ -152,3 +152,4 @@ function filterFile(fileList, file) {
 	}
 	return fileList.indexOf(file) != -1;
 }
+

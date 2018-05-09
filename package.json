@@ -1,33 +1,31 @@
 {
-  "name": "cordova-uglify",
-  "version": "0.3.2",
-  "description": "Cordova hook that allows you to uglify or minify your apps JavaScript and CSS.",
-  "homepage": "https://github.com/rossmartin/cordova-uglify",
-  "keywords": [
-    "cordova",
-    "uglify",
-    "minify",
-    "hook",
-    "hooks"
-  ],
-  "dependencies": {
-    "clean-css": "4.1.9",
-    "ng-annotate": "0.15.4",
-    "shelljs": "^0.7.0",
-    "uglify-js": "3.3.16"
-  },
-  "author": "Ross Martin",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rossmartin/cordova-uglify/issues"
-  },
-  "readmeFilename": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rossmartin/cordova-uglify"
-  },
-  "scripts": {
-    "postinstall": "node scripts/install.js",
-    "postuninstall": "node scripts/uninstall.js"
-  }
+	"name": "cordova-x-filter",
+	"version": "0.0.2",
+	"description": "Cordova hook to filter (whitelist/blacklist) the files that are included in your final .apk to save size",
+	"homepage": "https://github.com/rodrigograca31/cordova-x-filter",
+	"keywords": [
+		"cordova",
+		"minify",
+		"hook",
+		"hooks"
+	],
+	"dependencies": {
+		"fs-extra": "5.0.0",
+		"glob": "7.1.1",
+		"path": "0.12.7",
+	},
+	"author": "Rodrigo Graça",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/rodrigograca31/cordova-x-filter/issues"
+	},
+	"readmeFilename": "README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rodrigograca31/cordova-x-filter"
+	},
+	"scripts": {
+		"postinstall": "node scripts/install.js",
+		"postuninstall": "node scripts/uninstall.js"
+	}
 }
