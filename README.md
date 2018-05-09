@@ -28,14 +28,9 @@ You a similar output to this:
 ```
 CLEANING!
 
-
-allFiles
-3630
-whiteFiles
-101
-blackFiles
-0
-
+All Files: 3630
+Whitelisted Files: 101
+Blacklisted Files: 0
 
 FINISHED
 ```

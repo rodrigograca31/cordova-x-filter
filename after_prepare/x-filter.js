@@ -26,10 +26,12 @@ if (!isRelease) {
 	return;
 }
 
-console.log("\n\nCLEANING!\n\n");
+console.log("\nCLEANING!\n");
 
 // Run
 run();
+
+console.log("\nFINISHED\n");
 
 /**
  * Run compression for all specified platforms.
@@ -83,12 +85,9 @@ function run() {
 		/*
 		 * LOGGING
 		 */
-		console.log("allFiles");
-		console.log(allFiles.length);
-		console.log("whiteFiles");
-		console.log(whiteFiles.length);
-		console.log("blackFiles");
-		console.log(blackFiles.length);
+		console.log('All Files: ' + allFiles.length);
+		console.log('Whitelisted Files: ' + whiteFiles.length);
+		console.log('Blacklisted Files: ' + blackFiles.length);
 
 		if(whitelist.length){
 			allFiles.forEach(function(elem){
@@ -99,14 +98,13 @@ function run() {
 				}
 			});
 		}
-		if(blackFiles.length){
+		if(blacklist.length){
 			blackFiles.forEach(function(elem){
 				fs.removeSync(elem);
 			});
 		}
 
 		// TODO: log how many deletes and how many allowed....?
-		console.log("\n\nFINISHED\n\n");
 
 		// process.exit(1); // for debug
 		return;

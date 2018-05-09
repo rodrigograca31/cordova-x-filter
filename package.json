@@ -1,6 +1,6 @@
 {
 	"name": "cordova-x-filter",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Cordova hook to filter (whitelist/blacklist) the files that are included in your final .apk to save size",
 	"homepage": "https://github.com/rodrigograca31/cordova-x-filter",
 	"keywords": [
