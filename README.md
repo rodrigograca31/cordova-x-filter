@@ -1,6 +1,7 @@
 # cordova-x-filter (beta... works for me...)
 
-Cordova hook that allows you to filter (whitelist/blacklist) the files that are included in your final `.apk` to save size wich is very important!
+Cordova hook to filter (whitelist/blacklist) the files that are included in your final `.apk` to save size wich is very important!
+
 ##### 2 Examples:
 1. Are you using jquery? `npm install jquery --save` have you noticed it brings 144 files/folders and its 1.3MB but you only use `dist/jquery.min.js` in your cordova app 87kB...
 2. Are you using the latest font-awesome? `bower install font-awesome@latest --save` it brings 3342 files/folders and 17.3MB. What? Yep! But you but you will probably only use `web-fonts-with-css` and that's 2.3MB and you can even filter it further with this tool if you only use one of the font variants...
