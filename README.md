@@ -1,6 +1,6 @@
 # cordova-x-filter (beta... works for me...)
 
-Cordova hook to filter (whitelist/blacklist) the files that are included in your final `.apk` to save size wich is very important!
+Cordova hook to filter (whitelist/blacklist) the files that are included in your final `.apk` to save size wich is very important! (File Tree Shaking for cordova)
 
 ##### 2 Examples:
 1. Are you using jquery? `npm install jquery --save` have you noticed it brings 144 files/folders and its 1.3MB but you only use `dist/jquery.min.js` in your cordova app 87kB...
