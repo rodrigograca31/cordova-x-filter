@@ -1,4 +1,4 @@
-# cordova-x-filter (beta... works for me...)
+# cordova-x-filter
 
 Cordova hook to filter (whitelist/blacklist) the files that are included in your final `.apk` to save size wich is very important! (File Tree Shaking for cordova)
 
@@ -54,6 +54,7 @@ FINISHED
 }
 ```
 (Those are the minimum required files for a cordova app to work.)
+(Pro Tip: open Chrome Developer Tools Inspector and see what files your app is missing in the `Network` tab and include only those until the app works, use the app a bit and repeat)
 
 ## Using cordova-x-filter with Ionic 2
 I haven't used Ionic 2 but aparently you might need to add `build` on your files/folders whitelisted/blacklisted
